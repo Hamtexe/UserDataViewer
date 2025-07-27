@@ -1,0 +1,14 @@
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net8.0-windows\UserDataViewer.exe
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net8.0-windows\UserDataViewer.deps.json
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net8.0-windows\UserDataViewer.runtimeconfig.json
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net8.0-windows\UserDataViewer.dll
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net8.0-windows\UserDataViewer.pdb
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.AssemblyInfoInputs.cache
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.AssemblyInfo.cs
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.csproj.CoreCompileInputs.cache
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.dll
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\refint\UserDataViewer.dll
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.pdb
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\UserDataViewer.genruntimeconfig.cache
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net8.0-windows\ref\UserDataViewer.dll
