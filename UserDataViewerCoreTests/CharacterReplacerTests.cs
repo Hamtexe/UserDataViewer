@@ -1,7 +1,7 @@
 ﻿
 using System.Text.RegularExpressions;
 
-namespace UserDataViewerTests;
+namespace UserDataViewerCoreTests;
 
 public class CharacterReplacerTests
 {

@@ -418,7 +418,7 @@
           "bin/placeholder/UserDataViewerCore.dll": {}
         }
       },
-      "UserDataViewerTests/1.0.0": {
+      "UserDataViewerCoreTests/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -429,10 +429,10 @@
           "xunit.runner.visualstudio": "2.8.2"
         },
         "compile": {
-          "bin/placeholder/UserDataViewerTests.dll": {}
+          "bin/placeholder/UserDataViewerCoreTests.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UserDataViewerTests.dll": {}
+          "bin/placeholder/UserDataViewerCoreTests.dll": {}
         }
       }
     }
@@ -961,16 +961,16 @@
       "path": "../UserDataViewerCore/UserDataViewerCore.csproj",
       "msbuildProject": "../UserDataViewerCore/UserDataViewerCore.csproj"
     },
-    "UserDataViewerTests/1.0.0": {
+    "UserDataViewerCoreTests/1.0.0": {
       "type": "project",
-      "path": "../UserDataViewerTests/UserDataViewerTests.csproj",
-      "msbuildProject": "../UserDataViewerTests/UserDataViewerTests.csproj"
+      "path": "../UserDataViewerCoreTests/UserDataViewerCoreTests.csproj",
+      "msbuildProject": "../UserDataViewerCoreTests/UserDataViewerCoreTests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
       "UserDataViewerCore >= 1.0.0",
-      "UserDataViewerTests >= 1.0.0"
+      "UserDataViewerCoreTests >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1006,11 +1006,11 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
+            "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerCoreTests\\UserDataViewerCoreTests.csproj": {
+              "projectPath": "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerCoreTests\\UserDataViewerCoreTests.csproj"
+            },
             "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerCore\\UserDataViewerCore.csproj": {
               "projectPath": "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerCore\\UserDataViewerCore.csproj"
-            },
-            "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerTests\\UserDataViewerTests.csproj": {
-              "projectPath": "D:\\Проекты GIT\\UserDataViewer\\UserDataViewerTests\\UserDataViewerTests.csproj"
             }
           }
         }

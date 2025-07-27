@@ -70,7 +70,7 @@ namespace UserDataViewer
 
         private void ShowCurrentPage()
         {
-            if (currentUsers == null || currentUsers.Count == 0)
+            if (currentUsers.Count == 0)
             {
                 lblPageInfo.Text = "Нет данных";
                 dataGridView.DataSource = new BindingList<User>(new List<User>());
@@ -114,8 +114,16 @@ namespace UserDataViewer
             var direction = dataGridView.Columns[e.ColumnIndex].HeaderCell.SortGlyphDirection == SortOrder.Ascending
                 ? ListSortDirection.Descending
                 : ListSortDirection.Ascending;
+            
+            var resultSort = DataViewer.SortUser(columnName, direction, currentUsers);
 
-            currentUsers = DataViewer.SortUser(columnName, direction, currentUsers);
+            currentUsers = resultSort.currentUsers;
+            var errorSort = resultSort.ErrorSort;
+
+            if (errorSort != null)
+            {
+                MessageBox.Show($"{errorSort}");
+            }
 
             ShowCurrentPage();
 

@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UserDataViewerCore\UserDataViewerCore.csproj" />
-      <ProjectReference Include="..\UserDataViewerTests\UserDataViewerTests.csproj" />
+      <ProjectReference Include="..\UserDataViewerCoreTests\UserDataViewerCoreTests.csproj" />
     </ItemGroup>
 
 </Project>

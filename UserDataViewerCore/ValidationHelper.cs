@@ -5,7 +5,7 @@ namespace UserDataViewerCore
 {
     public class ValidationHelper
     {
-        public static (bool IsValid, int id, string ErrorMessage) ValidateId(string ID, int i)
+        public static (bool IsValid, int? id, string ErrorMessage) ValidateId(string ID, int i)
         {
             if (int.TryParse(ID, out int id))
             {
@@ -13,7 +13,7 @@ namespace UserDataViewerCore
                 {
                     return (false, id, $"Строка {i}: Некорректный ID '{ID}'.");
                 }
-                else return (true, id, null);
+                else return (true, id, "Ошибок нет");
             }
             else return (false, id, $"Строка {i}: Некорректный ID '{ID}'.");
 
@@ -30,7 +30,7 @@ namespace UserDataViewerCore
 
             var errors = new List<string>();
 
-            if (!Regex.IsMatch(name, @"^[A-Za-z ]+$"))
+            if (!Regex.IsMatch(name, Constants.NameRegex))
                 errors.Add("Допустимы только английские буквы");
 
             if (name.Length > 0 && !char.IsUpper(name[0]))
@@ -45,7 +45,7 @@ namespace UserDataViewerCore
                 return (false, $"Строка {i}: {errorDetails}, введено - '{name}'");
             }
 
-            return (true, null);
+            return (true, "Ошибок нет");
         }
 
         public static (bool IsValid, string ErrorMessage) ValidateEmail(string email, int i)
@@ -53,21 +53,16 @@ namespace UserDataViewerCore
             if (string.IsNullOrWhiteSpace(email))
                 return (false, $"Строка {i}: Имя не может быть пустым.");
 
-            var regex = new Regex(
-                @"^(?("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
-                @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-0-9a-z]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$",
-                RegexOptions.IgnoreCase);
-
-            if (!regex.IsMatch(email))
+            if (!Constants.EmailRegex.IsMatch(email))
                 return (false, $"Строка {i}: Не корректный email, введено - '{email}'");
 
-            return (true, null);
+            return (true, "Ошибок нет");
         }
 
         public static (bool IsValid, string ErrorMessage) ValidateGender(string gender, int i)
         {
             if (gender == "Male" || gender == "Female")
-                return (true, null);
+                return (true, "Ошибок нет");
 
             return (false, $"Строка {i}: Допустимо указание Male или Femail, введено - '{gender}'");
         }
@@ -75,7 +70,7 @@ namespace UserDataViewerCore
         public static (bool IsValid, string ErrorMessage) ValidateIpAddress(string ipAddress, int i)
         {
             if (System.Net.IPAddress.TryParse(ipAddress, out _))
-                return (true, null);
+                return (true, "Ошибок нет");
 
             return (false, $"Строка {i}: Не корректно введен IpAddress, введено - '{ipAddress}'");
         }

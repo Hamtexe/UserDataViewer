@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserDataViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75fc7ac5a0a4bde2e1f82f34fbc04e67b3a2bc2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserDataViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserDataViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

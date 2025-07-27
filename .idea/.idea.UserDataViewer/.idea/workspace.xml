@@ -8,8 +8,175 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2f78c11-0ced-498b-866c-ebf0d27a9a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataViewerCore/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataViewerCoreTests/CharacterReplacerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataViewerCoreTests/DataViewerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataViewerCoreTests/UserDataViewerCoreTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataViewerCoreTests/ValidationHelperTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UserDataViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UserDataViewer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/UserDataViewer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/UserDataViewer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerTests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/bin/Debug/net9.0-windows/UserDataViewerTests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/UserDataViewer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/ref/UserDataViewer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/ref/UserDataViewer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/refint/UserDataViewer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/Debug/net9.0-windows/refint/UserDataViewer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/UserDataViewer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/UserDataViewer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/CharacterReplacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/CharacterReplacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/DataViewer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/DataViewer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/ValidationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/ValidationHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/bin/Debug/net9.0/UserDataViewerCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/bin/Debug/net9.0/UserDataViewerCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/bin/Debug/net9.0/UserDataViewerCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/bin/Debug/net9.0/UserDataViewerCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/UserDataViewerCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/ref/UserDataViewerCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/ref/UserDataViewerCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/refint/UserDataViewerCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/Debug/net9.0/refint/UserDataViewerCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UserDataViewerCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/CharacterReplacerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/DataViewerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/UserDataViewerTests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/ValidationHelperTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_UserDataViewerTests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/CoverletSourceRootsMapping_UserDataViewerTests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerTests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/UserDataViewerTests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/testhost.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/testhost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.assert.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.execution.dotnet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserData.728796F9.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/UserDataViewerTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/ref/UserDataViewerTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/Debug/net9.0/refint/UserDataViewerTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/UserDataViewerTests.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/UserDataViewerTests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/UserDataViewerTests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDataViewerTests/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +205,7 @@
     ".NET Project.UserDataViewer.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,7 +215,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.UserDataViewer">
+  <component name="RunManager">
     <configuration name="UserDataViewer" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -83,7 +251,8 @@
       <workItem from="1753527412880" duration="2042000" />
       <workItem from="1753555294734" duration="1096000" />
       <workItem from="1753556444669" duration="4056000" />
-      <workItem from="1753609310805" duration="1518000" />
+      <workItem from="1753609310805" duration="2403000" />
+      <workItem from="1753641532431" duration="6040000" />
     </task>
     <servers />
   </component>

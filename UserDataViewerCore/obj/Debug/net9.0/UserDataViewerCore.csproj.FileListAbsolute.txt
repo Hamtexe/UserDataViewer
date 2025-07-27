@@ -9,3 +9,4 @@ D:\Проекты GIT\UserDataViewer\UserDataViewerCore\obj\Debug\net9.0\UserDat
 D:\Проекты GIT\UserDataViewer\UserDataViewerCore\obj\Debug\net9.0\refint\UserDataViewerCore.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewerCore\obj\Debug\net9.0\UserDataViewerCore.pdb
 D:\Проекты GIT\UserDataViewer\UserDataViewerCore\obj\Debug\net9.0\ref\UserDataViewerCore.dll
+D:\Проекты GIT\UserDataViewer\UserDataViewerCore\obj\Debug\net9.0\UserDataViewerCore.sourcelink.json

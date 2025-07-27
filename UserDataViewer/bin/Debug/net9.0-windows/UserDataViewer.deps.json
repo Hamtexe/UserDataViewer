@@ -9,7 +9,7 @@
       "UserDataViewer/1.0.0": {
         "dependencies": {
           "UserDataViewerCore": "1.0.0",
-          "UserDataViewerTests": "1.0.0"
+          "UserDataViewerCoreTests": "1.0.0"
         },
         "runtime": {
           "UserDataViewer.dll": {}
@@ -346,7 +346,7 @@
           }
         }
       },
-      "UserDataViewerTests/1.0.0": {
+      "UserDataViewerCoreTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.12.0",
           "UserDataViewerCore": "1.0.0",
@@ -355,7 +355,7 @@
           "xunit.runner.visualstudio": "2.8.2"
         },
         "runtime": {
-          "UserDataViewerTests.dll": {
+          "UserDataViewerCoreTests.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -479,7 +479,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UserDataViewerTests/1.0.0": {
+    "UserDataViewerCoreTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

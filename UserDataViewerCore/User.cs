@@ -1,15 +1,83 @@
 ﻿namespace UserDataViewerCore
 {
-    public class User
+  public class User
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public string Gender { get; set; }
-        public string IpAddress { get; set; }
+        public int? Id { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Gender { get; set; } = string.Empty;
+        public string IpAddress { get; set; } = string.Empty;
 
 
+        public User() { }
+        
+        public User(int id, string firstName, string lastName, 
+                  string email, string gender, string ipAddress)
+        {
+            
+            var resultId = ValidationHelper.ValidateName(id.ToString(), 0);
+            if (!resultId.IsValid)
+            {
+                throw new ArgumentException("Не корректное ID!");
+            }
+            else
+            {
+                Id = id;
+            }
+            
+            var resultFirstName = ValidationHelper.ValidateName(firstName, 0);
+            if (!resultFirstName.IsValid)
+            {
+                throw new ArgumentException("Не корректное имя!");
+            }
+            else
+            {
+                FirstName = firstName;
+            }
+            
+            var resultLastName = ValidationHelper.ValidateName(lastName, 0);
+            if (!resultLastName.IsValid)
+            {
+                throw new ArgumentException("Не корректная фамилия");
+            }
+            else
+            {
+                LastName = lastName;
+            }
+            
+            var resultEmail = ValidationHelper.ValidateName(email, 0);
+            if (!resultEmail.IsValid)
+            {
+                throw new ArgumentException("Не корректный email");
+            }
+            else
+            {
+                Email = email;
+            }
+
+            var resultGender = ValidationHelper.ValidateName(gender, 0);
+            if (!resultGender.IsValid)
+            {
+                throw new ArgumentException("Не корректный пол");
+            }
+            else
+            {
+                Gender = gender;
+            }
+
+            var resultIpAddress = ValidationHelper.ValidateName(ipAddress, 0);
+            if (!resultIpAddress.IsValid)
+            {
+                throw new ArgumentException("Не корректный IpAddress");
+            }
+            else
+            {
+                IpAddress = ipAddress;
+            }
+            
+        }
+        
         public static (List<User> allUsers, List<string> validationErrors) LoadUsersFromFile(string filePath)
         {
             var allUsers = new List<User>();
@@ -33,7 +101,7 @@
 
                     var idValidateResult = ValidationHelper.ValidateId(parts[0], i);
 
-                    if (!idValidateResult.IsValid)
+                    if (!idValidateResult.IsValid || idValidateResult.id == null)
                     {
                         validationErrors.Add(idValidateResult.ErrorMessage);
                         continue;

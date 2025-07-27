@@ -13,8 +13,6 @@ D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\Use
 D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\UserDataViewer.genruntimeconfig.cache
 D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\ref\UserDataViewer.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\testhost.dll
-D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerTests.deps.json
-D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerTests.runtimeconfig.json
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\testhost.exe
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\xunit.runner.visualstudio.testadapter.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\xunit.runner.reporters.netcoreapp10.dll
@@ -98,8 +96,11 @@ D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\zh-
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCore.dll
-D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerTests.dll
 D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCore.pdb
-D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerTests.pdb
 D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\UserDataViewer.csproj.AssemblyReference.cache
 D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\UserData.14553078.Up2Date
+D:\Проекты GIT\UserDataViewer\UserDataViewer\obj\Debug\net9.0-windows\UserDataViewer.sourcelink.json
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCoreTests.deps.json
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCoreTests.runtimeconfig.json
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCoreTests.dll
+D:\Проекты GIT\UserDataViewer\UserDataViewer\bin\Debug\net9.0-windows\UserDataViewerCoreTests.pdb

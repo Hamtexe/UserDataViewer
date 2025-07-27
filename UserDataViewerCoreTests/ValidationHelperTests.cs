@@ -1,4 +1,4 @@
-﻿namespace UserDataViewerTests;
+﻿namespace UserDataViewerCoreTests;
 using UserDataViewerCore; 
 
 public class ValidationHelperTests
