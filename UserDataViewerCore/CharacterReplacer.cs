@@ -61,7 +61,8 @@ public class CharacterReplacer
             result.Append(RussianToEnglishMap.TryGetValue(c, out char replacement) ? replacement : c);
         }
 
-        return result.ToString();
+        var stringResult = result.ToString();
+        return CapitalizeFirstLetter(stringResult);
     }
     
     
