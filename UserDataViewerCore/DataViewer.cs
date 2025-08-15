@@ -42,7 +42,6 @@ namespace UserDataViewerCore
                     break;
                 default:
                     return (_currentUsers, "Такого столбца не существует");
-                    break;
             }
 
             return (_currentUsers, null);;

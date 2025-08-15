@@ -7,16 +7,17 @@ namespace UserDataViewerCore
     {
         public static (bool IsValid, int? id, string ErrorMessage) ValidateId(string ID, int i)
         {
-            if (int.TryParse(ID, out int id))
+            if (int.TryParse(ID, out int parsedId))
             {
-                if (id <= 0)
-                {
-                    return (false, id, $"Строка {i}: Некорректный ID '{ID}'.");
-                }
-                else return (true, id, "Ошибок нет");
+                if (parsedId <= 0)
+                    return (false, parsedId, $"Строка {i}: Некорректный ID '{ID}'.");
+                else
+                    return (true, parsedId, null);
             }
-            else return (false, id, $"Строка {i}: Некорректный ID '{ID}'.");
-
+            else
+            {
+                return (false, null, $"Строка {i}: Некорректный ID '{ID}'.");
+            }
         }
 
 
@@ -74,6 +75,5 @@ namespace UserDataViewerCore
 
             return (false, $"Строка {i}: Не корректно введен IpAddress, введено - '{ipAddress}'");
         }
-
     }
 }

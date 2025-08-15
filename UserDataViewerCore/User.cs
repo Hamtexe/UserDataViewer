@@ -1,6 +1,6 @@
 ﻿namespace UserDataViewerCore
 {
-  public class User
+    public class User
     {
         public int? Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
@@ -10,74 +10,44 @@
         public string IpAddress { get; set; } = string.Empty;
 
 
-        public User() { }
-        
-        public User(int id, string firstName, string lastName, 
-                  string email, string gender, string ipAddress)
+        public User()
         {
-            
-            var resultId = ValidationHelper.ValidateName(id.ToString(), 0);
-            if (!resultId.IsValid)
-            {
-                throw new ArgumentException("Не корректное ID!");
-            }
-            else
-            {
-                Id = id;
-            }
-            
+        }
+
+        public User(int id, string firstName, string lastName,
+            string email, string gender, string ipAddress)
+        {
+            var resultId = ValidationHelper.ValidateId(id.ToString(), 0);
+            if (!resultId.IsValid || resultId.id == null)
+                throw new ArgumentException(resultId.ErrorMessage ?? "Не корректное ID!");
+            Id = resultId.id;
+
             var resultFirstName = ValidationHelper.ValidateName(firstName, 0);
             if (!resultFirstName.IsValid)
-            {
-                throw new ArgumentException("Не корректное имя!");
-            }
-            else
-            {
-                FirstName = firstName;
-            }
-            
+                throw new ArgumentException(resultFirstName.ErrorMessage ?? "Не корректное имя!");
+            FirstName = firstName;
+
             var resultLastName = ValidationHelper.ValidateName(lastName, 0);
             if (!resultLastName.IsValid)
-            {
-                throw new ArgumentException("Не корректная фамилия");
-            }
-            else
-            {
-                LastName = lastName;
-            }
-            
-            var resultEmail = ValidationHelper.ValidateName(email, 0);
+                throw new ArgumentException(resultLastName.ErrorMessage ?? "Не корректная фамилия");
+            LastName = lastName;
+
+            var resultEmail = ValidationHelper.ValidateEmail(email, 0);
             if (!resultEmail.IsValid)
-            {
-                throw new ArgumentException("Не корректный email");
-            }
-            else
-            {
-                Email = email;
-            }
+                throw new ArgumentException(resultEmail.ErrorMessage ?? "Не корректный email");
+            Email = email;
 
-            var resultGender = ValidationHelper.ValidateName(gender, 0);
+            var resultGender = ValidationHelper.ValidateGender(gender, 0);
             if (!resultGender.IsValid)
-            {
-                throw new ArgumentException("Не корректный пол");
-            }
-            else
-            {
-                Gender = gender;
-            }
+                throw new ArgumentException(resultGender.ErrorMessage ?? "Не корректный пол");
+            Gender = gender;
 
-            var resultIpAddress = ValidationHelper.ValidateName(ipAddress, 0);
+            var resultIpAddress = ValidationHelper.ValidateIpAddress(ipAddress, 0);
             if (!resultIpAddress.IsValid)
-            {
-                throw new ArgumentException("Не корректный IpAddress");
-            }
-            else
-            {
-                IpAddress = ipAddress;
-            }
-            
+                throw new ArgumentException(resultIpAddress.ErrorMessage ?? "Не корректный IpAddress");
+            IpAddress = ipAddress;
         }
-        
+
         public static (List<User> allUsers, List<string> validationErrors) LoadUsersFromFile(string filePath)
         {
             var allUsers = new List<User>();
@@ -86,7 +56,7 @@
             try
             {
                 var lines = File.ReadAllLines(filePath);
-                
+
                 lines = CharacterReplacer.ReplaceRussianWithEnglish(lines);
 
                 for (int i = 1; i < lines.Length; i++)
@@ -106,7 +76,7 @@
                         validationErrors.Add(idValidateResult.ErrorMessage);
                         continue;
                     }
-                    
+
                     var firtsNameValidateResult = ValidationHelper.ValidateName(parts[1], i);
 
                     if (!firtsNameValidateResult.IsValid)
@@ -114,7 +84,7 @@
                         validationErrors.Add(firtsNameValidateResult.ErrorMessage);
                         continue;
                     }
-                    
+
                     var lastNameValidateResult = ValidationHelper.ValidateName(parts[2], i);
 
                     if (!lastNameValidateResult.IsValid)

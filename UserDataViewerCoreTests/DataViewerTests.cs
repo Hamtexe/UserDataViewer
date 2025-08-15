@@ -7,9 +7,9 @@ namespace UserDataViewerCoreTests;
     {
         private readonly List<User> _testUsers = new List<User>
         {
-            new User { Id = 3, FirstName = "John", LastName = "Doe", Email = "john@example.com", Gender = "Male", IpAddress = "192.168.1.1" },
-            new User { Id = 1, FirstName = "Alice", LastName = "Smith", Email = "alice@example.com", Gender = "Female", IpAddress = "192.168.1.3" },
-            new User { Id = 2, FirstName = "Bob", LastName = "Johnson", Email = "bob@example.com", Gender = "Male", IpAddress = "192.168.1.2" }
+            new User(3, "John", "Doe", "john@example.com", "Male", "192.168.1.1"),
+            new User(1, "Alice", "Smith", "alice@example.com", "Female", "192.168.1.3"),
+            new User(2, "Bob", "Johnson", "bob@example.com", "Male", "192.168.1.2")
         };
 
         [Fact]
